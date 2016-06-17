@@ -7,7 +7,8 @@ namespace NetFlix
 {
     public class Episode
     {
-        private int Rating; // 1-5
+        public int Rating; // 1-5
+        public string name;
 
     }
 }

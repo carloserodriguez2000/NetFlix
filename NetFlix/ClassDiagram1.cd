@@ -11,36 +11,36 @@
     <Position X="2.5" Y="3" Width="1.5" />
     <InheritanceLine Type="NetFlix.Title" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="5.5" Y="5.504" />
-        <Point X="5.125" Y="5.504" />
-        <Point X="5.125" Y="3.875" />
-        <Point X="4" Y="3.875" />
+        <Point X="5.5" Y="5.548" />
+        <Point X="5.125" Y="5.548" />
+        <Point X="5.125" Y="4.054" />
+        <Point X="4" Y="4.054" />
       </Path>
     </InheritanceLine>
-    <AssociationLine Name="Episodes" Type="NetFlix.Episode">
+    <AssociationLine Name="_Episodes" Type="NetFlix.Episode">
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="-0.229" Y="1.143" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAEABAAAAAAAAAAAAEAAAAAAAAAAAg=</HashCode>
       <FileName>Show.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
-      <Field Name="Episodes" />
+      <Field Name="_Episodes" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="NetFlix.Title">
     <Position X="5.5" Y="5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAQAAAAAQAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAQAAAAAAAEAAAAAAAAAAIA=</HashCode>
       <FileName>Title.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NetFlix.Episode">
     <Position X="0.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAA=</HashCode>
       <FileName>Episode.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -48,8 +48,8 @@
     <Position X="8.5" Y="3" Width="1.5" />
     <InheritanceLine Type="NetFlix.Title" FixedFromPoint="true">
       <Path>
-        <Point X="7.75" Y="5.504" />
-        <Point X="8.125" Y="5.504" />
+        <Point X="7.75" Y="5.548" />
+        <Point X="8.125" Y="5.548" />
         <Point X="8.125" Y="3.842" />
         <Point X="8.5" Y="3.842" />
       </Path>
@@ -61,9 +61,16 @@
   </Class>
   <Class Name="NetFlix.Genre">
     <Position X="5.25" Y="0.75" Width="2.25" />
-    <AssociationLine Name="Titles" Type="NetFlix.Title" FixedToPoint="true">
+    <NestedTypes>
+      <Enum Name="NetFlix.Genre.Genra" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Genre.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="_Titles" Type="NetFlix.Title" FixedToPoint="true">
       <Path>
-        <Point X="6.5" Y="2.497" />
+        <Point X="6.5" Y="2.959" />
         <Point X="6.5" Y="5" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
@@ -71,11 +78,11 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAEAAQAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAEAAQAAAAAQAAAAAAAAAAEAAAAAAAAA=</HashCode>
       <FileName>Genre.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
-      <Field Name="Titles" />
+      <Field Name="_Titles" />
     </ShowAsCollectionAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />

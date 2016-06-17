@@ -7,29 +7,29 @@ namespace NetFlix
 {
     public class Title
     {
-        //public int RatingType { NR, PG, PG13, G, R, Adult, XXX };
-        //RatingType Rating;
-        int Rating;
+        private int? _rating;
         public string Name { get; set; }
-        //public string Rating;   // change this to a property
 
-        public Title(string Name, int Rating)
+        public int? Rating                                      //PROPERTY
+        {
+            get { return _rating;  }
+            set { _rating = value; }
+        }
+
+        public Title(string Name, int? Rating)                   //CONSTRUCTOR
         {
             this.Name = Name;
             this.Rating = Rating;
         }
-        public Title()
+        public Title()                                          //CONSTRUCTOR
         {
             this.Name = null;
             this.Rating = 0;    // null not posible this way.
         }
 
-        public static Title operator +(Title t1, Title t2)
+        public static Title operator +(Title t1, Title t2)      //OVERLOAD
         {
-            // return new Title( t1.name + t2.name, t1.rating +t2.rating)
-            return new Title();
-            //return new Title("summed names", t1.Rating.ToString()+t2.Rating.ToString());         // not correct. need to return a "Aggregated Genre"
-                                                                        // ned to figure this out.
+            return new Title(t1.Name + t2.Name, (t1.Rating + t2.Rating) / 2);
         }
     }//END OF CLASS
 }//END OF NAMESPACE
