@@ -37,7 +37,7 @@ namespace NetFlix
         }
         public override string ToString()        // Need to implement an override for "ToString"
         {
-            return  (Name + _Episodes.Count);   
-        }
+            return  (Name +" " + "has "+ _Episodes.Count + " episodes");   
+         }
     }
 }

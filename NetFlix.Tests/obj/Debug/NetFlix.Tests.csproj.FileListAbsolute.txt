@@ -1,0 +1,11 @@
+C:\Users\USER\Documents\Visual Studio 2015\Projects\NetFlix\NetFlix.Tests\bin\Debug\NetFlix.Tests.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\NetFlix\NetFlix.Tests\bin\Debug\NetFlix.Tests.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\NetFlix\NetFlix.Tests\bin\Debug\Microsoft.Pex.Framework.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\NetFlix\NetFlix.Tests\bin\Debug\NetFlix.exe
+C:\Users\USER\Documents\Visual Studio 2015\Projects\NetFlix\NetFlix.Tests\bin\Debug\Microsoft.ExtendedReflection.Reasoning.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\NetFlix\NetFlix.Tests\bin\Debug\Microsoft.ExtendedReflection.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\NetFlix\NetFlix.Tests\bin\Debug\NetFlix.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\NetFlix\NetFlix.Tests\bin\Debug\Microsoft.Pex.Framework.xml
+C:\Users\USER\Documents\Visual Studio 2015\Projects\NetFlix\NetFlix.Tests\obj\Debug\NetFlix.Tests.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2015\Projects\NetFlix\NetFlix.Tests\obj\Debug\NetFlix.Tests.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\NetFlix\NetFlix.Tests\obj\Debug\NetFlix.Tests.pdb

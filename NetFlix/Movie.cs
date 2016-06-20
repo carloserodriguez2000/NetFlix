@@ -7,11 +7,11 @@ namespace NetFlix
 {
     public class Movie : Title
     {
-        public int Duration { get; }
+        public int Duration { get; set; }
 
         public override string ToString()        // Need to implement an override for "ToString"
         {
-          return  (Name + Duration.ToString());
+          return  (Name + " duration:"+ Duration.ToString());
         }
     }
 }
