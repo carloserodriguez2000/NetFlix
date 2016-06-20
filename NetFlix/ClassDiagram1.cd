@@ -68,11 +68,7 @@
         </TypeIdentifier>
       </Enum>
     </NestedTypes>
-    <AssociationLine Name="_Titles" Type="NetFlix.Title" FixedToPoint="true">
-      <Path>
-        <Point X="6.5" Y="3.151" />
-        <Point X="6.5" Y="5" />
-      </Path>
+    <AssociationLine Name="_Titles" Type="NetFlix.Title">
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="0.074" Y="2.507" />
       </MemberNameLabel>

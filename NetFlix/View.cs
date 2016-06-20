@@ -17,8 +17,7 @@ namespace NetFlix
             Console.WriteLine("|-------------------------------------------");
             Console.WriteLine("|-------------" + aGenre.Name + "-----------");
             //foreach (Title item in aGenre) this wont work until GetEnumerator is implemented
-            foreach (var item in aGenre)
-         //            foreach (Title item in aGenre.Titles)
+            foreach (Title item in aGenre)
             {
                 if (item.GetType() == typeof(Movie))
                 {
